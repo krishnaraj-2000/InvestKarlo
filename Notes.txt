@@ -1,0 +1,12 @@
+1) Queue - Stock price change 
+-> run "php artisan queue:work"
+-> run the api with url "price_change"
+
+2) Command - Stock price change 
+-> run "php artisan schedule:run"
+
+3) Seeder - WalletStatus Seeding more count of data 
+-> run "php artisan db:seed --class=DatabaseSeeder"
+
+
+

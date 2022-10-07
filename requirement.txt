@@ -1,0 +1,11 @@
+Completed
+1) Authentication 
+2) payment 
+3) Add mutual fund 
+4) Add company 
+5) Wallet Deposit
+
+
+Remaining 
+1) Fund Transfer using seeder 
+2) Events and listeners 
