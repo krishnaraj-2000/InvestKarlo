@@ -18,6 +18,6 @@ class UserWalletController extends Controller
         //dd($request->input('amount'));
          $result = $this->store_value->store_wallet($request->input('user_id') , $request->input('amount') ) ;
       // $result = $this->store_value->store_wallet() ; 
-       return $result ; 
+        return $result ; 
     }
 }

@@ -37,20 +37,6 @@ class UserWalletDepositNotification
         print_r('wallet credited and history updated ');
         exit;
 
-        //print_r($event->email);
-        # Include the Autoloader (see "Libraries" for install instructions)
-        
-        # Instantiate the client.
-        // $mgClient = new Mailgun('53014eee9e6af271cda0da45cb09b301-78651cec-d355f9ca');
-        // $domain = "sandbox6b8fd3755987436c81393641d84d6f5b.mailgun.org";
-        // # Make the call to the client.
-        // $result = $mgClient->sendMessage($domain, array(
-        //     'from'	=> 'Excited User <kyadav75676@sandbox6b8fd3755987436c81393641d84d6f5b.mailgun.org>',
-        //     'to'	=> 'Baz <krishnay.75676@gmail.com>',
-        //     'subject' => 'Hello',
-        //     'text'	=> 'Testing some Mailgun awesomness!'
-        // ));
-        //echo ".. mail send ";
         
     }
 }
